@@ -6,7 +6,7 @@ class AutoModelForCausalLM:
             "`AutoModelForCausalLM.from_config(config)` methods."
         )
 
-	  @classmethod
+    @classmethod
     @replace_list_option_in_docstrings(MODEL_FOR_CAUSAL_LM_MAPPING, use_model_types=False)
     def from_config(cls, config):
 
@@ -20,7 +20,7 @@ class AutoModelForCausalLM:
         )
 
 
-	  @classmethod
+    @classmethod
     @replace_list_option_in_docstrings(MODEL_FOR_CAUSAL_LM_MAPPING)
     @add_start_docstrings(
         "Instantiate one of the model classes of the library---with a causal language modeling head---from a "
